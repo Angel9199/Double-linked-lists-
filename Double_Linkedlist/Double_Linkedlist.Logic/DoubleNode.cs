@@ -4,9 +4,9 @@
     {
         public T? Data { get; set; }
 
-        public DoubleNode<T> Left { get; set; }
+        public DoubleNode<T>? Left { get; set; }
 
-        public DoubleNode<T> Right { get; set; }
+        public DoubleNode<T>? Right { get; set; }
 
         public DoubleNode(T data)
         {
